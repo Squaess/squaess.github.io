@@ -1,0 +1,199 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Global */
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/*
+header {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  background-image: -moz-linear-gradient( 90deg, rgb(131,131,131) 0%, rgb(60,59,59) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(131,131,131) 0%, rgb(60,59,59) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(131,131,131) 0%, rgb(60,59,59) 100%);
+  opacity: 0.349;
+}
+*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: -moz-linear-gradient( 90deg, rgb(131,131,131) 0%, rgb(60,59,59) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(131,131,131) 0%, rgb(60,59,59) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(131,131,131) 0%, rgb(60,59,59) 100%);
+  min-height: 72px;
+  width: 100%;
+  border-bottom: solid 1px rgb(255, 255, 255);
+  opacity: 0.349;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+
+header ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  float: left;
+  display: inline;
+  height: auto;
+  padding: 26px 20px;
+}
+
+header nav {
+  margin: auto;
+}
+
+/*showcase*/
+#showcase #header-space {
+  height: 72px;
+}
+#showcase {
+  min-height: 447px;
+  background: url("../img/zdjecie-w-tle.png");
+  background-position: center;
+  text-align: center;
+}
+
+#showcase h1, #showcase p {
+  font-size: 24px;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix( 1.26400968778434,0,0,1.26400968778435,0,0);
+  -webkit-transform: matrix( 1.26400968778434,0,0,1.26400968778435,0,0);
+  -ms-transform: matrix( 1.26400968778434,0,0,1.26400968778435,0,0);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#showcase h1 {
+  padding-top: 100px;
+}
+
+#showcase p {
+  margin-bottom: 60px;
+}
+
+#sprawdz-button {
+  border-radius: 2px;
+  border: none;
+  background-color: rgb(217, 4, 43);
+  min-width: 220px;
+  font-size: 14px;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix( 1.003500836679,0,0,0.97897437699905,0,0);
+  -webkit-transform: matrix( 1.003500836679,0,0,0.97897437699905,0,0);
+  -ms-transform: matrix( 1.003500836679,0,0,0.97897437699905,0,0);
+  height: 48px;
+  color: rgb(255, 255, 255);
+  transition: all 0.5s;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#sprawdz-button span {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+
+#sprawdz-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#sprawdz-button:hover span {
+  padding-right: 25px;
+}
+
+#sprawdz-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* bosex */
+#boxes {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 33%;
+}
+
+#boxes .box img {
+}
+
+.box h3 {
+  font-size: 14px;
+  font-family: "Encode Sans Semi Condensed";
+  color: rgb(113, 164, 59);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix( 0.9990202382884,0,0,1.0015931942569,0,0);
+  -webkit-transform: matrix( 0.9990202382884,0,0,1.0015931942569,0,0);
+  -ms-transform: matrix( 0.9990202382884,0,0,1.0015931942569,0,0);
+}
+
+.box p {
+  font-size: 14px;
+  font-family: "Encode Sans Semi Condensed";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix( 1.0004087210618,0,0,1.0015931942569,0,0);
+  -webkit-transform: matrix( 1.0004087210618,0,0,1.0015931942569,0,0);
+  -ms-transform: matrix( 1.0004087210618,0,0,1.0015931942569,0,0);
+  width: 50%;
+  margin: auto;
+}
+
+#sos-pomidorowy {
+  color: rgb(166, 20, 46);
+}
+
+#menu-dla-dzieci {
+  color: rgb(190, 186, 107);
+}
