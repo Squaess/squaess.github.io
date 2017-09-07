@@ -197,3 +197,22 @@ header nav {
 #menu-dla-dzieci {
   color: rgb(190, 186, 107);
 }
+
+
+/*slider*/
+#rect {
+  background-color: rgb(42, 42, 42);
+  position: absolute;
+  left: 0px;
+  top: 789px;
+  width: 100%;
+  height: 420px;
+  text-align: center;
+}
+
+#zamow-juz-teraz {
+  background-color: rgb(255, 255, 255);
+  width: 513px;
+  height: 94px;
+  margin: auto;
+}
