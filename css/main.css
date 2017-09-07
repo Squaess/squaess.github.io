@@ -215,4 +215,12 @@ header nav {
   width: 513px;
   height: 94px;
   margin: auto;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+}
+
+#zamow-juz-teraz h2 {
+  margin-top: 0px;
+  position: relative;
+  top: 12px;
 }
