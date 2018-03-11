@@ -1,78 +1,72 @@
-<!DOCTYPE hmtl>
+<!DOCTYPE html>
 <html lang="pl">
 <head>
   <meta charset="utf-8">
+  <title>Moje przygody z edukacją</title>
+  <meta name="description" content="Projekt realizujący na zaliczenie przedmiotu.">
+  <meta name="author" content="Bartosz Banasik">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <meta name="description" content="opis naszej pizzerii">
-	<meta name="keywords" content="słowa kluczowe do wyszukiwania">
-	<meta name="author" content="Trevor Philips Industries">
-
-	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
-
-  <meta name="viewport" content="width=device-width">
-  <!-- linking main css file -->
-	<link rel="stylesheet" href="css/main.css">
-
-  <!-- linking fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,700|Encode+Sans+Expanded:400,700|Encode+Sans+Semi+Condensed:400,700|Encode+Sans+Semi+Expanded:400,700|Encode+Sans:400,700" rel="stylesheet">
-
-  <title>Pizzeria Fresco</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
 
-  <header>
-    <div class="container">
-      <nav>
-        <ul>
-          <li><a href="index.html">strona główna</a></li>
-          <li><a href="index.html">oferta</a></li>
-          <li><a href="index.html">kontakt</a></li>
-          <li><a href="index.html">opinie</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <div id="container">
 
-  <section id="showcase">
-    <div id="header-space">
+    <div class="rel-img">
 
-    </div>
-    <div class="container">
-      <h1>Mamy wszystko</h1>
-      <p>czego potrzeba Ci do szczęścia</p>
-      <button type="button" name="button" id="sprawdz-button"><span>Sprawdz ofertę</span></button>
-    </div>
-  </section> <!-- end showcase -->
+      <picture>
+       <source srcset="img/img_avatar.png" media="(max-width: 930px)">
+       <source srcset="img/img_avatar_big.jpg">
+       <img src="img/img_avatar.png" alt="Zdjęcie">
+      </picture>
 
-  <section id="boxes">
-    <div class="container">
-      <div class="box">
-        <img src="./img/galazka.png" alt="Świerze składniki">
-        <h3>swieże składniki</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lobortis lorem vel quam facilisis, eget dictum nulla semper. Ut blandit bibendum mauris sed varius. Etiam id eleifend turpis, eget tincidunt quam.</p>
+      <div class="bottom-center">
+        <h1>Bartosz Banasik</h1>
+        <h3>Moje przygody z edukacją</h3>
       </div>
-      <div class="box">
-        <img src="./img/pomidor.png" alt="Sos pomidorowy">
-        <h3 id="sos-pomidorowy">sos pomidorowy</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lobortis lorem vel quam facilisis, eget dictum nulla semper. Ut blandit bibendum mauris sed varius. Etiam id eleifend turpis, eget tincidunt quam.</p>
-      </div>
-      <div class="box">
-        <img src="./img/dzieci.png" alt="Menu dla dzieci">
-        <h3 id="menu-dla-dzieci">menu dla dzieci</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lobortis lorem vel quam facilisis, eget dictum nulla semper. Ut blandit bibendum mauris sed varius. Etiam id eleifend turpis, eget tincidunt quam.</p>
-      </div>
-    </div> <!-- end container -->
-  </section> <!-- end boxes -->
-  <section id="slider">
-    <div class="container">
-      <div id="rect">
-        <div id="zamow-juz-teraz">
-          <h2>Zamów już teraz</h2>
-        </div>
-      </div>
-    </div>
-  </section>
+
+    </div> <!-- rel-img -->
+
+    <div id="main-info">
+      <p>Na tej stronie zamieszczę krótkie informacje dotyczące
+      mojego życiorysu oraz przygód z edukacją. Można również tutaj znaleźć
+      informacje na temat moich ulubionych zajęć.</p>
+      <p>Szkołę średnią skończyłem w 2015 roku w Olesnie, małej miejscowości
+         w województwie Opolskim. Również w 2015 roku zacząłem studia na wydziale
+         Podstawowych Problemów Techniki Politechniki Wrocławskiej
+          na kierunku Informatyka.</p>
+    </div><!-- main-info -->
+
+    <div class="row">
+
+      <div class="square col-2-4">
+        <h4>Moja Edukacja</h4>
+        <ol>
+          <li>Szkoła średnia</li>
+          <li>Studia: <a href="sub_sites/semestr1.html" >semestr I (2015/16) </a></li>
+          <li>Studia: <a href="#1" >semestr II (2015/16) </a></li>
+          <li>Studia: <a href="#2" >semestr III (2016/17) </a></li>
+          <li>Studia: <a href="#3" >semestr IV (2016/17) </a></li>
+          <li>Studia: <a href="#4" >semestr V (2017/18) </a></li>
+          <li>Studia: <a href="#5" >semestr VI (2017/18) </a></li>
+        </ol>
+      </div> <!-- square -->
+
+      <div class="square col-2-4">
+        <h4>Moje hobby</h4>
+        <ol>
+          <li>Muzyka</li>
+          <li>E-sport</li>
+          <li>Programowanie</li>
+          <li>Książki</li>
+        </ol>
+      </div> <!-- square -->
+
+    </div> <!-- row -->
+
+  </div> <!-- container -->
+
 </body>
-
 </html>
